@@ -48,6 +48,7 @@
     }
     .old-text {
         font-family: cod;
+        text-shadow: 3px 3px 1px black;
     }
     .colortext {
         font-family: old-english;
@@ -77,4 +78,13 @@
     .socials {
         font-size: x-large;
         padding-right: 300px;
+    }
+    .skills {
+        font-family: cod;
+        font-size: xx-large;
+        text-decoration: underline;
+        text-decoration-color: blue;
+    }
+    .skill {
+        font-size: xX-large;
     }
