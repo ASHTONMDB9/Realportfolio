@@ -1,0 +1,80 @@
+@font-face {
+    font-family: old-english;
+    src: url(./OldeEnglishRegular-Zd2J.ttf);
+}
+@font-face {
+    font-family: cod;
+    src: url(./CallOfOpsDuty-qAyq.ttf);
+}
+@font-face {
+    font-family: codmw;
+    src: url(./ModernWarfare-OV7KP.ttf);
+}
+* {
+    box-sizing: border-box;
+  }
+  .navbar {
+      padding-right: 400px;
+      z-index: 1000;
+    }
+    li.nav-link {
+        display: inline;
+    }
+    ul.nav-link {
+        font-size: xx-large;
+        text-align: center;
+        font-size: 25px;
+    }
+    .logo {
+        padding-left: 300px;
+    }
+    .navbar-brand {
+        font-family: old-english;
+        font-size: 40px;
+    }
+    section {
+        min-height: 100vh;
+    }
+    #landing {
+        min-height: 80vh;
+    }
+    .landtext {
+        padding-top: 250px;
+    }
+    .curve-text {
+        font: size 45px;
+        font-family: codmw;
+        text-shadow: 3px 3px 1px blue;
+    }
+    .old-text {
+        font-family: cod;
+    }
+    .colortext {
+        font-family: old-english;
+        font-size: 40px;
+    }
+    #ash {
+        border-radius: 60%;
+        padding-top: 100px;
+    }
+    #about {
+        background-color: white;
+    }
+    #ash2 {
+        padding-top: 100px;
+    }
+    .about {
+        font-family: cod;
+        text-decoration: underline;
+        text-decoration-color: blue;
+        font-size: 40px;
+        padding-top: 100px;
+
+    }
+    .share {
+        font-size: 20px;
+    }
+    .socials {
+        font-size: x-large;
+        padding-right: 300px;
+    }
