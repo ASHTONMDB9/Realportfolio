@@ -55,11 +55,9 @@
         font-size: 40px;
     }
     #ash {
-        border-radius: 60%;
-        padding-top: 100px;
-    }
-    #about {
-        background-color: white;
+        padding-top: 50px;
+        padding-left: 100px;
+        opacity: 0.7
     }
     #ash2 {
         padding-top: 100px;
@@ -91,4 +89,36 @@
     }
     .skilltext {
         font-size: medium;
+    }
+    .resume {
+        font-family: cod;
+        text-decoration: underline;
+        text-decoration-color: blue;
+        font-size: 40px;
+        padding-top: 100px;
+
+    }
+    .restitle {
+        border-left: 5px blue;
+    }
+    .test-title {
+        font-family: cod;
+        text-decoration: underline;
+        text-decoration-color: blue;
+        font-size: 40px;
+        padding-top: 100px;
+    }
+    .test {
+        font-family: codmw;
+        text-decoration: underline;
+        text-decoration-color: blue;
+        font-size: 35px;  
+    }
+    .Portfolio {
+        font-family: cod;
+        text-decoration: underline;
+        text-decoration-color: blue;
+        font-size: 40px;
+        padding-top: 100px;
+        margin-bottom: 25px;
     }

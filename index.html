@@ -14,8 +14,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-          <img class="logo" src="logo1.jpg">
-          <a class="navbar-brand text-primary ps-3" href="index.html">Ashton.Abrahams</a>
+          <a class="navbar-brand text-primary ps-3" href="index.html"><img class="logo" src="logo1.jpg"> Ashton.Abrahams</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-links" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -32,8 +31,7 @@
           </div>
         </div>
       </nav>
-      <section class="bg-dark">
-    <section id="landing">
+    <section class="bg-dark" id="landing">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
@@ -43,7 +41,7 @@
                    </div>
                 </div>
                 <div class="col-sm-6">
-                    <img class="img" id="ash" data-aos="fade-left" src="Ashton__4_-removebg-preview.png">
+                    <img class="img-fluid" id="ash" data-aos="fade-left" src="Ashton__4_-removebg-preview.png">
                 </div>
             </div>
           </div>
@@ -81,11 +79,11 @@
                 <div class="row">
                     <div class="col border-5 shadow">
                         <div class="skill">
-                            <i class="fa-brands fa-html5"> HTML</i>
+                            <i class="fa-brands fa-html5 text-success"><span class="text-dark"> HTML 5</span></i>
                             </div>
-                            <div class="progress mb-3">
+                            <div class="progress mb-3 rounded-pill">
                               <div
-                                class="progress-bar progress-bar-striped progress-bar-animated rounded-pill bg-success"
+                                class="progress-bar progress-bar-striped progress-bar-animated bg-dark"
                                 role="progressbar"
                                 style="width: 90%"
                                 aria-valuenow="90"
@@ -102,11 +100,11 @@
                     </div>
                     <div class="col border-5 shadow">
                         <div class="skill">
-                        <i class="fa-brands fa-css3"> CSS</i>
+                        <i class="fa-brands fa-css3 text-primary"><span class="text-dark"> CSS 3</span></i>
                     </div>
-                        <div class="progress  mb-3">
+                        <div class="progress mb-3 rounded-pill">
                           <div
-                            class="progress-bar progress-bar-striped progress-bar-animated rounded-pill"
+                            class="progress-bar progress-bar-striped progress-bar-animated bg-dark"
                             role="progressbar"
                             style="width: 80%"
                             aria-valuenow="80"
@@ -122,13 +120,13 @@
                             </div>
                     </div>
                     
-                    <div class="col border-5 shadow"> 
+                    <div class="col border-5 shadow "> 
                         <div class="skill">
-                        <i class="fa-brands fa-js"> JavaScript</i>
+                        <i class="fa-brands fa-js text-warning"><span class="text-dark"> Javascript</span></i>
                     </div>
-                        <div class="progress mb-3">
+                        <div class="progress mb-3 rounded-pill">
                           <div
-                            class="progress-bar progress-bar-striped progress-bar-animated rounded-pill bg-warning"
+                            class="progress-bar progress-bar-striped progress-bar-animated bg-dark"
                             role="progressbar"
                             style="width: 35%"
                             aria-valuenow="35"
@@ -145,11 +143,11 @@
                     </div>
                     <div class="col border-5 shadow">   
                         <div class="skill">
-                        <i class="fa-brands fa-github-square"> GitHub</i>
+                        <i class="fa-brands fa-github-square text-info"><span class="text-dark"> GitHub</span></i>
                        </div>
-                           <div class="progress mb-3">
+                           <div class="progress mb-3 rounded-pill">
                              <div
-                               class="progress-bar progress-bar-striped progress-bar-animated rounded-pill bg-info"
+                               class="progress-bar progress-bar-striped progress-bar-animated bg-dark"
                                role="progressbar"
                                style="width: 75%"
                                aria-valuenow="75"
@@ -166,11 +164,11 @@
                         </div>
                     <div class="col border-5 shadow">      
                         <div class="skill">
-                        <i class="fa-brands fa-bootstrap"> BootStrap</i>
+                        <i class="fa-brands fa-bootstrap text-danger"><span class="text-dark"> Bootstrap 5</span></i>
                         </div>
-                        <div class="progress mb-3">
+                        <div class="progress mb-3 rounded-pill">
                           <div
-                            class="progress-bar progress-bar-striped progress-bar-animated rounded-pill bg-danger"
+                            class="progress-bar progress-bar-striped progress-bar-animated bg-dark"
                             role="progressbar"
                             style="width: 50%"
                             aria-valuenow="50"
@@ -189,9 +187,121 @@
         </div>
         </div>
     </section>
-    <section id="resume"></section>
-    <section id="testimonials"></section>
-    <section id="projects"></section>
+    <section id="resume">
+      <div class="container-fluid d-flex flex-column justify-content-center align-items-center">
+      <h3 class="resume text-dark" data-aos="fade-left">Resume</h3>
+      </div>
+    </section>
+    <section class="bg-dark" id="testimonials">
+      <div class="container-fluid d-flex flex-column justify-content-center align-items-center">
+        <h3 class="test-title text-light mb-5" data-aos="fade-left">Testimonials</h3>
+        <div id="testimonial-slider" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#testimonial-slider" data-bs-slide-to="0" class="active rounded-circle;" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#testimonial-slider" data-bs-slide-to="1" class="rounded-circle;" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#testimonial-slider" data-bs-slide-to="2" class="rounded-circle;" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item pb-5 text-center active">
+              <img src="jason-wandrag-nobg-2.png" class="car-img mb-4" alt="Uzzi">
+              <h5 class="test text-white">Jason Wandrag</h5>
+              <p class="text-white">I think Ashton Abrahams is a very consistent student. 
+                When he is confident about the answer, he loves participating in class. As long as he focuses in class, 
+                Ashton Abrahams will improve steadily.</p>
+            </div>
+            <div class="carousel-item pb-5 text-center">
+              <img src="Mu_eed-removebg-preview.png" class="car-img mb-4" alt="Don">
+              <h5 class="test text-white">Mu'eed Brown</h5>
+              <p class="text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, voluptate et. Blanditiis, distinctio eaque.</p>
+            </div>
+            <div class="carousel-item pb-5 text-center">
+              <img src="Ricardo-removebg-preview.png" class="car-img mb-4" alt="Sanchez">
+                <h5 class="test text-white">Ricardo Ronan Moses</h5>
+                <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, aliquid. Fugit aliquam adipisci, dolorum fugiat doloribus beatae voluptatibus praesentium.</p>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#testimonial-slider" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#testimonial-slider" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <section id="projects">
+      <div class="container-fluid d-flex flex-column justify-content-center align-items-center">
+        <h3 class="Portfolio text-dark" data-aos="fade-left">Portfolio</h3>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 mb-3">
+              <div class="card border-0 rounded shadow" style="width:400px">
+              <img class="card-img-top" src="Holiday destination.png" alt="tokyo">
+              <div class="card-body">
+                <h4 class="card-title">Holiday Destination</h4>
+                <p class="card-text">A simple website of my favourite
+                  holiday destination with contact section for booking a spot</p>
+                <a href="https://holidaytokyo.netlify.app" class="btn btn-primary">View Project</a>
+              </div>
+            </div></div>
+            <div class="col-md-4">
+              <div class="card" style="width:400px">
+                <img class="card-img-top" src="Calculator1.png" alt="Cal">
+                <div class="card-body">
+                  <h4 class="card-title">HTML Calculator</h4>
+                  <p class="card-text">A simple HTML calculator design</p>
+                  <a href="https://html-calculator-pro.netlify.app" class="btn btn-primary">View Project</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card" style="width:400px">
+                <img class="card-img-top" src="Company Portfoliio.png" alt="akatsuki media">
+                <div class="card-body">
+                  <h4 class="card-title">Company Portfolio</h4>
+                  <p class="card-text">A team project creating a company website</p>
+                  <a href="https://company-porfolio-template.netlify.app" class="btn btn-primary">View Project</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card" style="width:400px">
+                <img class="card-img-top" src="Calculator1.png" alt="Cal">
+                <div class="card-body">
+                  <h4 class="card-title">HTML Calculator</h4>
+                  <p class="card-text">A simple HTML calculator design</p>
+                  <a href="https://html-calculator-pro.netlify.app" class="btn btn-primary">View Project</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card" style="width:400px">
+                <img class="card-img-top" src="Calculator1.png" alt="Cal">
+                <div class="card-body">
+                  <h4 class="card-title">HTML Calculator</h4>
+                  <p class="card-text">A simple HTML calculator design</p>
+                  <a href="https://html-calculator-pro.netlify.app" class="btn btn-primary">View Project</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card" style="width:400px">
+                <img class="card-img-top" src="Calculator1.png" alt="Cal">
+                <div class="card-body">
+                  <h4 class="card-title">HTML Calculator</h4>
+                  <p class="card-text">A simple HTML calculator design</p>
+                  <a href="https://html-calculator-pro.netlify.app" class="btn btn-primary">View Project</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+          </div>
+        </div>
+        </div>
+    </section>
     <section id="contact"></section>
 </section>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
