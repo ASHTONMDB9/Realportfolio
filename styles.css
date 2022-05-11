@@ -14,8 +14,11 @@
     box-sizing: border-box;
   }
   .navbar {
+      position: fixed;
       padding-right: 400px;
       z-index: 1000;
+      width: 100%;
+      height: 60px;
     }
     li.nav-link {
         display: inline;
@@ -36,7 +39,7 @@
         min-height: 100vh;
     }
     #landing {
-        min-height: 80vh;
+        min-height: 100vh;
     }
     .landtext {
         padding-top: 250px;
@@ -66,10 +69,16 @@
         font-family: cod;
         text-decoration: underline;
         text-decoration-color: blue;
+        text-decoration-thickness: 4px;
         font-size: 40px;
         padding-top: 100px;
 
     }
+    .about::first-letter {
+        text-decoration:underline;
+        text-decoration-color: blue;
+        text-decoration-thickness: 8px;
+      }
     .share {
         font-size: 20px;
     }
@@ -82,7 +91,13 @@
         font-size: xx-large;
         text-decoration: underline;
         text-decoration-color: blue;
+        text-decoration-thickness: 4px;
     }
+    .skills::first-letter {
+        text-decoration:underline;
+        text-decoration-color: blue;
+        text-decoration-thickness: 8px;
+      }
     .skill {
         font-size: large;
         font-weight: bold
@@ -90,14 +105,24 @@
     .skilltext {
         font-size: medium;
     }
+    #skilltab:hover {
+        background-color: black;
+        color: white;
+    }
     .resume {
         font-family: cod;
         text-decoration: underline;
         text-decoration-color: blue;
+        text-decoration-thickness: 4px;
         font-size: 40px;
         padding-top: 100px;
 
     }
+    .resume::first-letter {
+        text-decoration:underline;
+        text-decoration-color: blue;
+        text-decoration-thickness: 8px;
+      }
     .restitle {
         border-left: 5px blue;
     }
@@ -105,9 +130,15 @@
         font-family: cod;
         text-decoration: underline;
         text-decoration-color: blue;
+        text-decoration-thickness: 4px;
         font-size: 40px;
         padding-top: 100px;
     }
+    .test-title::first-letter {
+        text-decoration:underline;
+        text-decoration-color: blue;
+        text-decoration-thickness: 8px;
+      }
     .test {
         font-family: codmw;
         text-decoration: underline;
@@ -115,10 +146,26 @@
         font-size: 35px;  
     }
     .Portfolio {
+        padding-left: 300px;
         font-family: cod;
         text-decoration: underline;
         text-decoration-color: blue;
+        text-decoration-thickness: 4px;
         font-size: 40px;
         padding-top: 100px;
         margin-bottom: 25px;
+    }
+    .Portfolio::first-letter {
+        text-decoration:underline;
+        text-decoration-color: blue;
+        text-decoration-thickness: 8px;
+      }
+    .card-title {
+        font-family: codmw;
+        text-decoration: underline;
+        text-decoration-color: blue;
+    }
+    #Projectab:hover {
+        color: white;
+        background-color: black;
     }
