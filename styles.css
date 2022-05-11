@@ -14,11 +14,8 @@
     box-sizing: border-box;
   }
   .navbar {
-      position: fixed;
       padding-right: 400px;
       z-index: 1000;
-      width: 100%;
-      height: 60px;
     }
     li.nav-link {
         display: inline;
@@ -37,7 +34,8 @@
     }
     section {
         min-height: 100vh;
-        width: 100%;
+        overflow-x: hidden;
+        overflow-y: hidden;
     }
     #landing {
         min-height: 90vh;
@@ -66,38 +64,6 @@
     #ash2 {
         padding-top: 100px;
     }
-    .container1 {
-        position: relative;
-        height: 25vh;
-      }
-      
-      .wave {
-        position: absolute;
-        height: 150px;
-        width: 100%;
-        bottom: 0;
-      }
-      
-      .wave::before, .wave::after {
-        content: "";
-        display: block;
-        position: absolute;
-        border-radius: 50% 100%;
-      }
-      
-      .wave::before {
-        width: 55%;
-        height: 100%;
-        right: -1.5%;
-        top: 40%;
-      }
-      .wave::after {
-        width: 55%;
-        height: 109%;
-        background-color: white;
-        left: -1.5%;
-        top: 60%;
-      }
     .about {
         font-family: cod;
         text-decoration: underline;
@@ -138,9 +104,9 @@
     .skilltext {
         font-size: medium;
     }
-    #skilltab:hover {
-        background-color: black;
-        color: white;
+    .soft {
+        font-family: cod;
+        font-size: small;
     }
     .resume {
         font-family: cod;
@@ -156,8 +122,9 @@
         text-decoration-color: blue;
         text-decoration-thickness: 8px;
       }
-    .restitle {
-        border-left: 5px blue;
+      #rescard:hover {
+        background-color: black;
+        color: white;
     }
     .test-title {
         font-family: cod;
