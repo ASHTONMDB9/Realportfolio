@@ -39,6 +39,7 @@
     }
     #landing {
         min-height: 90vh;
+        background-attachment: fixed;
     }
     .landtext {
         padding-top: 250px;
