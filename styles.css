@@ -1,14 +1,14 @@
 @font-face {
     font-family: old-english;
-    src: url(./OldeEnglishRegular-Zd2J.ttf);
+    src: url(./fonts/OldeEnglishRegular-Zd2J.ttf);
 }
 @font-face {
     font-family: cod;
-    src: url(./CallOfOpsDuty-qAyq.ttf);
+    src: url(./fonts/CallOfOpsDuty-qAyq.ttf);
 }
 @font-face {
     font-family: codmw;
-    src: url(./ModernWarfare-OV7KP.ttf);
+    src: url(./fonts/ModernWarfare-OV7KP.ttf);
 }
 html, body {
     box-sizing: border-box;
